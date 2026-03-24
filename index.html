@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bar Restaurante Ca'n Joan - Especialidad en pollo al ast y pa amb oli en Cala Millor. Un ambiente tradicional y cercano con la mejor carta.">
+    <title>Bar Restaurante Ca'n Joan | Cala Millor</title>
+    
+    <!-- Google Fonts: Nunito for Headings, Inter for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo-link">
+                <!-- Using text imitating the logo colors if no image, user attached logo but no file to src -->
+                <span class="logo-text">BAR Ca'n JOAN</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#destacados">Especialidades</a></li>
+                    <li><a href="#carta">La Carta</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <a href="index.html" class="lang-link active" aria-label="Español">ES</a>
+                    <a href="en.html" class="lang-link" aria-label="English">EN</a>
+                    <a href="de.html" class="lang-link" aria-label="Deutsch">DE</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Abrir menú" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-bg">
+                <img src="images/hero_tradicional_1774363519193.png" alt="Mesa con tapas tradicionales, pa amb oli y pollo, Bar Ca'n Joan">
+            </div>
+            <div class="hero-overlay"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Tradición y Sabor · Cala Millor</span>
+                    <h1 class="hero-title">Tu restaurante de toda la vida.</h1>
+                    <p class="hero-text">Especialidad en pollo al ast y pa amb olis. Ven a disfrutar de comida casera y raciones abundantes en el mejor ambiente, ahora con nuestra nueva carta.</p>
+                    <div class="hero-buttons">
+                        <a href="#carta" class="btn btn-primary btn-large">Ver Carta Auténtica</a>
+                        <a href="tel:+34971586644" class="btn btn-outline btn-large">Llamar 971 586 644</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destacados / Especialidades -->
+        <section class="section bg-light" id="destacados">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestras Especialidades</h2>
+                    <p>Los clásicos que nunca fallan, elaborados con cariño e ingredientes de primera.</p>
+                </div>
+                
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-img">
+                            <img src="images/pollo_ast_1774363486503.png" alt="Pollo al Ast Bar Can Joan">
+                        </div>
+                        <div class="highlight-content">
+                            <h3>Pollo al Ast</h3>
+                            <p>Nuestra mayor especialidad. Dorado, jugoso y crujiente, acompañado de ricas patatas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <div class="highlight-img">
+                            <img src="images/pa_amb_oli_1774363502667.png" alt="Tradicional Pa amb oli Mallorquin">
+                        </div>
+                        <div class="highlight-content">
+                            <h3>Pa amb Oli</h3>
+                            <p>Auténtica tradición mallorquina. Pan moreno, tomate de ramallet y el mejor embutido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- La Carta Completa -->
+        <section class="section" id="carta">
+            <div class="container">
+                <div class="section-header">
+                    <h2>La Carta</h2>
+                    <p>Deliciosas opciones para todos los gustos.</p>
+                </div>
+
+                <div class="menu-notes">
+                    <span>⚠️ <strong>Notas Importantes:</strong></span>
+                    <span>💳 SOLO SE EFECTÚA UNA CUENTA POR MESA</span>
+                    <span>🌾🥛 Si tienen alguna intolerancia alimentaria consulten al camarero.</span>
+                    <span>🧾 IVA Incluido en todos los precios.</span>
+                </div>
+
+                <div class="menu-grid">
+                    
+                    <!-- PARA PICAR -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🍟 Para Picar</h3>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Croquetas caseras de pollo o carrillera</span>
+                            </div>
+                            <span class="menu-item-price">8.60€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Fritura de Pescado</span>
+                            </div>
+                            <span class="menu-item-price">17.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Arroz o Patata Alioli</span>
+                            </div>
+                            <span class="menu-item-price">2.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Jamón curado o variadas</span>
+                            </div>
+                            <span class="menu-item-price">10.60€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Gambas a la plancha</span>
+                            </div>
+                            <span class="menu-item-price">9.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Croquetas de Bogavante</span>
+                            </div>
+                            <span class="menu-item-price">12.60€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Ración de Patatas Fritas</span>
+                            </div>
+                            <span class="menu-item-price">3.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Calamares a la Romana</span>
+                            </div>
+                            <span class="menu-item-price">7.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Alitas de Pollo</span>
+                            </div>
+                            <span class="menu-item-price">7.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Alitas Kentucky</span>
+                            </div>
+                            <span class="menu-item-price">9.30€</span>
+                        </div>
+                    </div>
+
+                    <!-- ENSALADAS -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🥗 Ensaladas</h3>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Ensalada Clásica</span>
+                                <span class="menu-item-desc">Tomate, lechuga, cebolla, maíz, zanahoria y pimiento</span>
+                            </div>
+                            <span class="menu-item-price">4.40€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Ensalada de Atún</span>
+                                <span class="menu-item-desc">Clásica + Atún</span>
+                            </div>
+                            <span class="menu-item-price">6.40€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Ensalada con Queso de Cabra y Cebolla Crujiente</span>
+                            </div>
+                            <span class="menu-item-price">8.60€</span>
+                        </div>
+                    </div>
+
+                    <!-- HAMBURGUESAS -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🍔 Hamburguesas</h3>
+                        <span class="menu-sub-note">Bases a elegir: Mixta, Ternera 180gr [+1.00€], o Pollo Crispy [+1.00€]</span>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa</span>
+                                <span class="menu-item-desc">Tomate, lechuga y cebolla</span>
+                            </div>
+                            <span class="menu-item-price">4.70€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa con Queso</span>
+                                <span class="menu-item-desc">Tomate, lechuga y cebolla</span>
+                            </div>
+                            <span class="menu-item-price">5.20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa con Queso y Beicon</span>
+                                <span class="menu-item-desc">Tomate, lechuga y cebolla</span>
+                            </div>
+                            <span class="menu-item-price">5.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa Completa</span>
+                                <span class="menu-item-desc">Tomate, lechuga, cebolla, queso, bacon y huevo</span>
+                            </div>
+                            <span class="menu-item-price">6.20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa Ibérica</span>
+                                <span class="menu-item-desc">Tomate, lechuga, cebolla, queso y jamón serrano</span>
+                            </div>
+                            <span class="menu-item-price">6.20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa con Queso de Cabra y Cebolla Cruj.</span>
+                                <span class="menu-item-desc">Tomate, lechuga y cebolla</span>
+                            </div>
+                            <span class="menu-item-price">6.20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa Especial Ca'n Joan</span>
+                                <span class="menu-item-desc">De Ternera</span>
+                            </div>
+                            <span class="menu-item-price">9.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa Angus Premium</span>
+                                <span class="menu-item-desc">Tomate, lechuga y cebolla</span>
+                            </div>
+                            <span class="menu-item-price">10.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa Angus Premium completa</span>
+                                <span class="menu-item-desc">Tomate, lechuga, cebolla, queso, bacon y huevo</span>
+                            </div>
+                            <span class="menu-item-price">12.50€</span>
+                        </div>
+                    </div>
+
+                    <!-- BRATWURST -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🌭 Bratwurst (Salchicha Alemana)</h3>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Bratwurst con Tomate y Cebolla</span>
+                            </div>
+                            <span class="menu-item-price">4.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Bratwurst Completo</span>
+                                <span class="menu-item-desc">Tomate, cebolla, queso, beicon</span>
+                            </div>
+                            <span class="menu-item-price">5.50€</span>
+                        </div>
+                    </div>
+
+                    <!-- PA AMB OLI CLÁSICOS -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🍞 Pa amb oli Clásicos</h3>
+                        <span class="menu-sub-note">Precios: Entero / Medio</span>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Jamón Serrano</span>
+                            </div>
+                            <span class="menu-item-price">8.00€ / 4.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Jamón Serrano y Queso</span>
+                            </div>
+                            <span class="menu-item-price">8.60€ / 5.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Camaiot a la plancha</span>
+                            </div>
+                            <span class="menu-item-price">8.40€ / 4.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Camaiot a la plancha y Queso fundido</span>
+                            </div>
+                            <span class="menu-item-price">9.00€ / 5.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Jamón York</span>
+                            </div>
+                            <span class="menu-item-price">6.70€ / 4.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Jamón York y Queso</span>
+                            </div>
+                            <span class="menu-item-price">7.20€ / 5.20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Atún</span>
+                            </div>
+                            <span class="menu-item-price">7.20€ / 4.80€</span>
+                        </div>
+                    </div>
+
+                    <!-- PA AMB OLI CALIENTES -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🔥 Pa amb oli Calientes</h3>
+                        <span class="menu-sub-note">Precios: Entero / Medio</span>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Tortilla a la Francesa</span>
+                            </div>
+                            <span class="menu-item-price">7.70€ / 4.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Beicon y Queso</span>
+                            </div>
+                            <span class="menu-item-price">9.40€ / 5.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Lomo</span>
+                            </div>
+                            <span class="menu-item-price">8.70€ / 5.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Lomo con Queso</span>
+                            </div>
+                            <span class="menu-item-price">9.50€ / 6.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Lomo con Queso y Beicon</span>
+                            </div>
+                            <span class="menu-item-price">9.90€ / 6.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Pechuga de Pollo</span>
+                            </div>
+                            <span class="menu-item-price">9.20€ / 6.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Pechuga de Pollo con Queso</span>
+                            </div>
+                            <span class="menu-item-price">9.90€ / 6.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Pechuga de Pollo con Queso y Beicon</span>
+                            </div>
+                            <span class="menu-item-price">10.70€ / 7.20€</span>
+                        </div>
+                    </div>
+
+                    <!-- PA AMB OLI ESPECIALES -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🌟 Pa amb oli "Especial de la Casa"</h3>
+                        <span class="menu-sub-note">Precios: Entero / Medio</span>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Con Lomo y Queso Roquefort o de Cabra</span>
+                            </div>
+                            <span class="menu-item-price">11.80€ / 7.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Con Pollo y Queso Roquefort o de Cabra</span>
+                            </div>
+                            <span class="menu-item-price">11.80€ / 8.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">"Serranito" de Lomo</span>
+                                <span class="menu-item-desc">Lomo, pimiento y jamón serrano</span>
+                            </div>
+                            <span class="menu-item-price">10.00€ / 6.90€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">"Serranito" de Pollo</span>
+                                <span class="menu-item-desc">Pollo, pimiento y jamón serrano</span>
+                            </div>
+                            <span class="menu-item-price">10.50€ / 7.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">De Lomo con Verduras a la plancha y Setas</span>
+                            </div>
+                            <span class="menu-item-price">9.90€ / 7.10€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Con Pechuga de Pollo, Verduras y Setas</span>
+                            </div>
+                            <span class="menu-item-price">10.90€ / 7.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Con Verduras a la plancha y Setas</span>
+                            </div>
+                            <span class="menu-item-price">8.40€ / 5.40€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Con Sepia</span>
+                            </div>
+                            <span class="menu-item-price">14.40€ / 8.00€</span>
+                        </div>
+                    </div>
+
+                    <!-- PLATOS COMBINADOS -->
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">🍽️ Platos Combinados</h3>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">1/2 Pollo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">10.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">1/2 Pollo con Arroz o Patatas o Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">9.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Bratwurst con Patatas, Beicon y 2 Huevos</span>
+                            </div>
+                            <span class="menu-item-price">8.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Hamburguesa de Ternera (en plato)</span>
+                                <span class="menu-item-desc">Con Patatas, Beicon y 2 Huevos</span>
+                            </div>
+                            <span class="menu-item-price">9.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Lomo con Patatas, Huevos fritos y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">8.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Pechuga de Pollo con Patatas, Huevos y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">9.10€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Escalope de Lomo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">9.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Escalope de Pollo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">10.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Cordon Bleu de Lomo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">11.40€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Cordon Bleu de Pollo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">12.40€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Cachopo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">17.70€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Solomillo de Ternera</span>
+                            </div>
+                            <span class="menu-item-price">18.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Entrecot con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">17.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Costillas de Cerdo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">10.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Lechona con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">10.90€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Paletilla de Cordero con Patatas o Arroz</span>
+                            </div>
+                            <span class="menu-item-price">17.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Rabo de Toro con Patatas o Arroz</span>
+                            </div>
+                            <span class="menu-item-price">16.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Sepia a la plancha con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">14.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Manitas de Cerdo</span>
+                            </div>
+                            <span class="menu-item-price">10.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Codillo con Patatas y Ensalada</span>
+                            </div>
+                            <span class="menu-item-price">12.80€</span>
+                        </div>
+                        <div class="menu-item" style="border-top:1px dashed #ccc; margin-top:10px; padding-top:10px;">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Salsa Roquefort / Pimienta / Champiñones</span>
+                            </div>
+                            <span class="menu-item-price">2.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <span class="menu-item-name">Pan, Aceitunas y Alioli</span>
+                            </div>
+                            <span class="menu-item-price">2.50€</span>
+                        </div>
+                    </div>
+
+                    <!-- COLUMNA REPARTIDA: BOCADILLOS Y OTROS -->
+                    <div class="menu-category">
+                        <!-- BOCADILLOS FRÍOS -->
+                        <h3 class="menu-category-title">🥪 Sándwiches y Bocadillos Fríos</h3>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Sándwich de Jamón y Queso</span></div>
+                            <span class="menu-item-price">4.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Sándwich de Pollo</span><span class="menu-item-desc">Tomate, lechuga, cebolla y pollo</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Jamón York</span></div>
+                            <span class="menu-item-price">4.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Jamón York y Queso</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Jamón Serrano</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Jamón Serrano y Queso</span></div>
+                            <span class="menu-item-price">5.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Queso o Atún</span></div>
+                            <span class="menu-item-price">4.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Camaiot</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+
+                        <!-- BOCADILLOS CALIENTES -->
+                        <h3 class="menu-category-title" style="margin-top: 2rem;">🔥 Bocadillos Calientes</h3>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Beicon</span></div>
+                            <span class="menu-item-price">5.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Beicon y Queso</span></div>
+                            <span class="menu-item-price">6.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Lomo</span></div>
+                            <span class="menu-item-price">5.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Lomo con Queso</span></div>
+                            <span class="menu-item-price">6.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Lomo, Queso y Beicon</span></div>
+                            <span class="menu-item-price">6.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Pechuga de Pollo</span></div>
+                            <span class="menu-item-price">6.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Pechuga con Queso</span></div>
+                            <span class="menu-item-price">6.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Pechuga, Queso, Beicon</span></div>
+                            <span class="menu-item-price">6.80€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Tortilla Francesa</span></div>
+                            <span class="menu-item-price">4.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Bocadillo de Calamares con Tomate y Alioli</span></div>
+                            <span class="menu-item-price">6.30€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">"Serranito" de Lomo</span></div>
+                            <span class="menu-item-price">6.50€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">"Serranito" de Pollo</span></div>
+                            <span class="menu-item-price">7.00€</span>
+                        </div>
+
+                        <!-- MENÚ INFANTIL -->
+                        <h3 class="menu-category-title" style="margin-top: 2rem;">👧👦 Menú Infantil</h3>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Nuggets con Patatas fritas</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Huevos con Patatas fritas</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Hot Dog con Patatas fritas</span></div>
+                            <span class="menu-item-price">5.00€</span>
+                        </div>
+
+                        <!-- POSTRES Y BEBIDAS -->
+                        <h3 class="menu-category-title" style="margin-top: 2rem;">🍨 Postres y Bebidas</h3>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Granizada de Almendra</span></div>
+                            <span class="menu-item-price">3.20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Helados Varios</span></div>
+                            <span class="menu-item-price">Consultar</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><span class="menu-item-name">Botella Vino Coto Blanco/Tinto/Rosado</span></div>
+                            <span class="menu-item-price">12.50€</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="section bg-light" id="contacto">
+            <div class="container text-center">
+                <h2>¿Listo para saborear?</h2>
+                <p>Te esperamos con los fogones encendidos.</p>
+                <div class="reservation-box">
+                    <p>Llámanos para hacer tu reserva o pedir para llevar.</p>
+                    <h3 class="phone-number" style="font-size:3rem; color:var(--primary-color);">+34 971 586 644</h3>
+                    <div class="reservation-buttons">
+                        <a href="tel:+34971586644" class="btn btn-primary btn-large">Llamar Ahora</a>
+                        <a href="https://wa.me/34971586644" class="btn btn-whatsapp btn-large" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <span class="footer-logo">Ca'n Joan.</span>
+                <p>Tu Bar Restaurante de confianza en Cala Millor. Especialidad en pollo al ast y pa amb olis.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                </div>
+            </div>
+            
+            <div class="footer-col contact-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li>Teléfono: 971 586 644</li>
+                    <li>Cala Millor, Mallorca</li>
+                </ul>
+            </div>
+            
+            <div class="footer-col hours-col">
+                <h4>Información Local</h4>
+                <ul>
+                    <li>💳 Solo se efectúa una cuenta por mesa.</li>
+                    <li>🧾 IVA Incluido.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Bar Restaurante Ca'n Joan. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
